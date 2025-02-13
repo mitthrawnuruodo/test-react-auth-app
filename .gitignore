@@ -1,0 +1,12 @@
+# Node modules (dependencies)
+node_modules/
+
+# Build output (Vite)
+dist/
+
+# Temporary files and cache
+.vite/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
