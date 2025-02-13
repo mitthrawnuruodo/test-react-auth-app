@@ -9,7 +9,12 @@ const Home = () => {
       .then((data) => setFact(data.fact));
   }, []);
 
-  return <p>Random Cat Fact: {fact}</p>;
+  return (
+    <>
+      <h1>Random Cat Fact</h1>
+      <p>{fact}</p>
+    </>
+  );
 };
 
 export default Home;
